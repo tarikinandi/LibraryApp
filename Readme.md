@@ -78,7 +78,7 @@ Projeyi çalıştırmanın en kolay yolu Docker kullanmaktır.
 Eğer Docker kullanmıyorsanız, `src/main/resources/application.properties` dosyasındaki veritabanı ayarlarını kendi local PostgreSQL bilgilerinize göre güncelleyin.
 
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/librarydb
+spring.datasource.url=jdbc:postgresql://localhost:5433/librarydb
 spring.datasource.username=postgres
 spring.datasource.password=sifreniz
 ```
